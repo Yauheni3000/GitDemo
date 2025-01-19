@@ -11,9 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("bugfix123 branch")
+        print("bugfix123 second commit")
     }
-
-
+    func bugfixFunc() {
+        print("bugFixFuncPrint")
+    }
 }
 
